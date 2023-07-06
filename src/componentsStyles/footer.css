@@ -1,0 +1,64 @@
+footer {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: rgb(43, 48, 53);
+  margin-top: 200px;
+}
+
+.col-footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.redes-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+
+footer a:hover {
+  color: rgb(255, 255, 255, 0.75);
+  background-color: rgb(255, 165, 0, 0.75);
+  border-radius: 3px;
+}
+
+.powered-footer:hover{
+  background-color: transparent !important;
+}
+
+.icon-red-social {
+  padding: 3px;
+  width: 30px;
+  height: 30px;
+}
+
+#logo-footer {
+  max-width: 50%;
+}
+
+.derechos-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+.icon-powered{
+  padding: 3px;
+  width: 200px;
+  height: 50px;
+}
