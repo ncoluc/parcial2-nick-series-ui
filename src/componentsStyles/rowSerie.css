@@ -85,10 +85,7 @@
   }
 }
 
-
 @media (max-width: 1000px) {
-
-
   .filtros-col {
     display: flex !important;
     flex-direction: column !important;
@@ -97,14 +94,11 @@
   }
 }
 
-
 @media (min-width: 768px) and (max-width: 991px) {
-
   .datos-serie-col {
     padding-left: 50px;
   }
 }
-
 
 @media (max-width: 767px) {
   .datos-extra-col {
