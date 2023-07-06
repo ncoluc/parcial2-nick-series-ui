@@ -1,0 +1,11 @@
+.container-nosotros {
+  padding-top: 100px;
+  color: rgb(212, 212, 212);
+  background-color: rgb(43, 48, 53);
+  max-width: 100%;
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  border-bottom: 4px solid rgb(244, 126, 32);
+}

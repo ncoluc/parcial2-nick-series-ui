@@ -1,0 +1,41 @@
+.offcanvas {
+  background-color: #272d32;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 600px !important;
+}
+
+.offcanvas-title {
+  background-color: #f47e20;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+}
+
+.series-favoritas-col div {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 450;
+  align-content: flex-start;
+}
+
+.series-favoritas-col div button {
+  padding: 4px;
+  margin: 0;
+}
+
+.series-favoritas-col div .imagen-serie-col img {
+  width: 100px;
+  height: 180px;
+}
+
+.series-favoritas-col div .datos-serie-col .datos-extra-col {
+  display: none;
+}
+
+.series-favoritas-col .agregar-serie-col {
+  padding: 0;
+  border: 0;
+}

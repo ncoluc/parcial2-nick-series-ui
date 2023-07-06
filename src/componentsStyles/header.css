@@ -1,0 +1,41 @@
+nav {
+  box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.5) !important;
+}
+
+.logo-nav {
+  height: 50px;
+  width: 100px;
+}
+
+.items-nav {
+  display: flex;
+  align-items: center;
+}
+
+.items-nav a {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 10px;
+  color: white;
+}
+
+.items-nav a button {
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #f47e20;
+  border-color: #f47e20;
+}
+
+.items-nav a button:hover,
+.items-nav a button:active,
+.navbar-collapse form button:hover,
+.navbar-collapse form button:active {
+  background-color: orange !important;
+  border-color: rgb(0, 0, 0) !important;
+  color: black !important;
+}
+
+.navbar-collapse form button {
+  color: #f47e20;
+  border-color: rgb(244, 126, 32);
+}
