@@ -1,0 +1,78 @@
+.serie-row {
+  background-color: rgb(119, 119, 119);
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+  display: flex;
+}
+
+
+.datos-serie-col {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.datos-serie-col div {
+  max-height: 140px;
+  overflow: auto !important;
+}
+
+.agregar-serie-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid black;
+  padding: 50px;
+}
+
+.agregar-serie-col div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.btn-agregar {
+  background-color: rgb(12, 78, 177);
+}
+
+.datos-extra-col {
+  border-top: 1px solid black;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  display: flex;
+}
+
+.dato-extra {
+  background-color: rgba(255, 166, 0, 0.527);
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+  margin-right: 50px;
+  font-weight: 450;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.titulo-serie-row{
+  margin-top: 4px;
+}
+
+
+.imagen-serie-col{
+  padding-left: 0;
+  position: relative;
+  height: 100%;
+  height: auto;
+}
+
+.imagen-serie-col img {
+  max-width: 150px;
+  height: 100%;
+  object-fit: cover; 
+  display: inline;
+}
+
+
